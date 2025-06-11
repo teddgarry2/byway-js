@@ -1,0 +1,1661 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	font-weight: normal;
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Sora-Bold';
+    src: url('../fonts/Sora-Bold.ttf');
+    
+}
+@font-face {
+    font-family: 'Sora-Light';
+    src: url('../fonts/Sora-Light.ttf');
+    
+}
+@font-face {
+    font-family: 'Sora-Medium';
+    src: url('../fonts/Sora-Medium.ttf');
+    
+}
+@font-face {
+    font-family: 'Sora-Regular';
+    src: url('../fonts/Sora-Regular.ttf');
+
+}
+li {
+    list-style: none;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body {
+    font-family: "Sora-Regular";
+}
+a{
+	color:#000;
+   text-decoration: none;
+}
+img{
+    display: block;
+    width: 100%;
+}
+p{
+    color: #000;
+}
+h1,h2{
+    color: #000;
+}
+h5,h4{
+    color: #000;  
+}
+.wrapper{
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* header section style starts here */
+
+header {
+    padding-top: 1rem;
+}
+header .wrapper {
+
+}
+header .wrapper .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .wrapper .header-container .logo {
+    display: flex;
+    align-items: center;
+}
+header .wrapper .header-container .logo a img {
+    display: block;
+    width: 100%;
+}
+header .wrapper .header-container .logo h1 a {
+    font-size: 19px;
+}
+header .wrapper .header-container .left {
+    display: inline-grid;
+}
+header .wrapper .header-container .left ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+header .wrapper .header-container .left ul li {
+
+}
+header .wrapper .header-container .left ul li .cart {
+    
+}
+header .wrapper .header-container .left ul li .cart a {
+
+}
+header .wrapper .header-container .left ul li #loginBtn {
+    background-color:  #fff;
+    color: #000;
+    border: 2px solid #334155;
+    padding: 10px;
+    cursor: pointer;
+}
+header .wrapper .header-container .left ul li #loginBtn .one {
+    background-color: #fff;
+}
+header .wrapper .header-container .left ul li .button {
+
+}
+header .wrapper .header-container .left ul li .button #signupBtn {
+    background-color:  #334155;
+    color: #fff;
+    border: #334155;
+    padding: 10px;
+    cursor: pointer;
+}
+header .wrapper .header-container .left ul li .profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #334155;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+header .wrapper .header-container .left ul li .profile a {
+    color: #fff;
+}
+ hr {
+    width: 100%;
+    height: 1px;
+    background-color: #E2E8F0;
+    border: none;
+    margin-top: 1rem;
+}
+
+/* header section style ends here */
+
+/* spotlight section style starts here */ 
+
+#spotlight {
+    padding-bottom: 4rem;
+}
+#spotlight .wrapper {
+
+}
+#spotlight .wrapper .spotlight-container {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+#spotlight .wrapper .spotlight-container .left {
+    line-height: 1rem;
+}
+#spotlight .wrapper .spotlight-container .left h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 3rem;
+}
+#spotlight .wrapper .spotlight-container .left p {
+    color: #334155;
+    margin-top: 1rem;
+    font-size: 15px;
+}
+#spotlight .wrapper .spotlight-container .left button {
+    margin-top: 1rem;
+    background-color: #3B82F6;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+#spotlight .wrapper .spotlight-container .left button a {
+    color: #fff;
+}
+#spotlight .wrapper .spotlight-container .right {
+
+}
+#spotlight .wrapper .spotlight-container .right .home-image {
+
+}
+#content {
+    background-color: #F8FAFC;
+    padding: 2rem;
+}
+#content .wrapper {
+    
+}
+#content .wrapper .content-container {
+
+}
+#content .wrapper .content-container ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#content .wrapper .content-container ul li {
+    line-height: 2rem;
+}
+#content .wrapper .content-container ul li h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #0F172A;
+}
+#content .wrapper .content-container ul li p {
+    font-size: 14px;
+    color: #0F172A;
+}
+#content .wrapper .content-container ul li span {
+    position: absolute;
+    margin-left: 18rem;
+    margin-top: -4rem;
+}
+
+
+
+#session {
+    width: 100%;
+}
+#session .wrapper {
+
+}
+#session .wrapper .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4rem;
+}
+#session .wrapper .top h2 a {
+    color: #000;
+    font-size: 25px;
+}
+#session .wrapper .top h5 a {
+    color:deepskyblue
+}
+#session .bottom{
+    padding: 3rem 0rem;
+}
+#session .bottom ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#session .bottom ul li {
+    width: 23%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    line-height: 2rem;
+}
+#session .bottom ul li span {
+    border-radius: 40px;
+    background-color: #e0f2fe;
+    padding: 20px;
+    margin-bottom: 1rem;
+}
+#session .bottom ul li h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+#session .bottom ul li h4 {
+    line-height: 2rem;
+}
+
+ /* session style ends here*/
+
+ /* course style starts here */
+
+#course {
+    padding-bottom: 3rem;
+}
+#course .wrapper {
+
+}
+#course .wrapper .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+#course .wrapper .top h1 a {
+    color: #000;
+    font-size: 25px;
+}
+#course .wrapper .top h5 a {
+    color: deepskyblue;
+}
+#course .wrapper .bottom {
+    padding-top: 2rem;
+}
+#course .wrapper .bottom ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#course .wrapper .bottom ul li {
+    line-height: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: max-content;
+    padding: 1rem;
+}
+#course .wrapper .bottom ul li a .img {
+    display: block;
+    width: 100%;
+}
+#course .wrapper .bottom ul li a h4 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+#course .wrapper .bottom ul li a h5 {
+    color: #334155;
+}
+#course .wrapper .bottom ul li a .star5 {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+#course .wrapper .bottom ul li a .star5 h6 {
+    color: #334155;
+    font-weight: 600;
+}
+#course .wrapper .bottom ul li a h6 {
+    color: #334155;
+}
+#course .wrapper .bottom ul li a h3 {
+    font-weight: bold;
+}
+
+/* course style ends here */
+
+
+/* department style starts here */
+
+
+#department {
+    padding: 1rem;
+    width: 100%;
+ }
+#department .wrapper {
+   
+}
+#department .wrapper .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+#department .wrapper .top h1 a {
+    color: #000;
+    font-size: 25px;
+}
+#department .wrapper .top h5 a {
+    color: deepskyblue
+}
+#department .wrapper .bottom {
+    padding-top: 3rem;
+}
+#department .wrapper .bottom ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#department .wrapper .bottom ul li {
+    line-height: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: max-content;
+    padding: 1rem;
+}
+#department .wrapper .bottom ul li a {
+
+}
+#department .wrapper .bottom ul li a .institute {
+    display: block;
+    width: 100%;
+}
+#department .wrapper .bottom ul li a h3 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+#department .wrapper .bottom ul li a h5 {
+    text-align: center;
+    color: #334155;
+    margin-top: 1rem;
+}
+#department .wrapper .bottom ul li a hr {
+    width: 100%;
+    height: 1px;
+    background-color: #E2E8F0;
+    border: none;
+    margin-top: 1rem;
+}
+#department .wrapper .bottom ul li a span {
+    display: block;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+#department .wrapper .bottom ul li a span h4 {
+    color: #000;
+    font-weight: bold;
+    margin-left: 8px;
+}
+#department .wrapper .bottom ul li a span h6 {
+    color: #334155;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+/* department style ends here */
+
+/* about style starts here */
+#about {
+    padding-top: 3rem;
+    background-color: #F8FAFC;
+    padding-bottom: 3rem;
+}
+#about .wrapper {
+    margin: 0 auto;
+    width: 95%;
+}
+#about .wrapper .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#about .wrapper .top h1 a {
+    line-height: 3rem;
+    font-size: 25px;
+    font-weight: 600;
+}
+.slider-buttons {
+    display: flex;
+    justify-content: flex-end;
+    width: 9%;
+}
+  
+.slider-buttons button {
+    margin-left: 10px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #94A3B8;
+    color: #fff;
+    width: 40%;
+}
+#about .wrapper .bottom {
+
+}
+#about .wrapper .bottom #testimonials-container #testimonials {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+#about .wrapper .bottom #testimonials-container #testimonials li {
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: max-content;
+    padding: 1rem;
+    line-height: 2rem;
+    background-color: #fff;
+}
+#about .wrapper .bottom #testimonials-container #testimonials li .quote {
+    display: block;
+    width: 8%;
+    margin-bottom: 1rem;
+}
+#about .wrapper .bottom #testimonials-container #testimonials li p {
+    font-size: 15px;
+    color: #334155;
+}
+#about .wrapper .bottom #testimonials-container #testimonials li .subscribe {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+#about .wrapper .bottom #testimonials-container #testimonials li .subscribe .pro_pic {
+    display: block;
+    width: 15%;
+}
+#about .wrapper .bottom #testimonials-container #testimonials li .subscribe span {
+
+}
+#about .wrapper .bottom #testimonials-container #testimonials li .subscribe span h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+#about .wrapper .bottom #testimonials-container #testimonials li .subscribe span h6 {
+    color: #334155;
+}
+
+/* about style ends here */
+
+
+
+#create {
+    width: 100%;
+    padding-top: 3rem;
+}
+#create .wrapper {
+    width: 88%;
+    margin: 0 auto;
+    padding: 0px;
+}
+#create .wrapper .top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*gap: 3rem;*/
+}
+#create .wrapper .top .left {
+
+}
+#create .wrapper .top .right {
+    line-height: 2rem;
+}
+#create .wrapper .top .right h1 {
+    font-size: 25px;
+} 
+#create .wrapper .top .right .button {
+    background-color: #000;
+    color: #fff;
+    border: 0px solid #000;
+    padding: 5px 21px;
+    width: 55%;
+    border-radius: 11px;
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+#create .wrapper .top .right .button p {
+    text-decoration: none;
+    color: #fff;
+}
+#create .wrapper .top .right .button i {
+
+}
+#create .wrapper .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+}
+
+#create .wrapper .bottom .left {
+    line-height: 2rem;
+    width: 45%;
+}
+#create .wrapper .bottom .left h1 {
+    font-size: 25px;
+}
+
+#create .wrapper .bottom .left .button {
+    background-color: #000;
+    color: #fff;
+    border: 0px solid #000;
+    padding: 7px 73px;
+    width: 59%;
+    border-radius: 11px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#create .wrapper .bottom .left .button p {
+    text-decoration: none;
+    color: #fff;
+}
+#create .wrapper .bottom .right {
+    width: 50%;
+}
+
+
+
+
+
+/* profile page spotlight section style starts here */
+
+#profile-spotlight {
+    background-color: #F8FAFC;
+}
+#profile-spotlight .wrapper {
+
+}
+#profile-spotlight .wrapper .spot-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#profile-spotlight .wrapper .spot-container  .spotlight-left {
+    padding-bottom: 8rem;
+}
+#profile-spotlight .wrapper .spot-container  .spotlight-left .categories {
+    
+}
+#profile-spotlight .wrapper .spot-container .spotlight-left .categories ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+#profile-spotlight .wrapper .spot-container  .spotlight-left .categories ul li {
+
+}
+#profile-spotlight .wrapper .spot-container .spotlight-left .categories ul li a {
+    font-size: 14px;
+    color: #334155;
+}
+#profile-spotlight .wrapper .spot-container .spotlight-left .categories ul li a i {
+    color: #000;
+}
+#profile-spotlight .wrapper .spot-container .spotlight-left .categories ul li .paragraph {
+    color: #2563EB;
+}
+#profile-spotlight .wrapper .spot-container .spotlight-left .design {
+    padding-top: 3rem;
+}
+#profile-spotlight .wrapper .spot-container .spotlight-left .design h1 a {
+    font-size: 30px;
+    font-weight: bold;
+}
+#profile-spotlight .wrapper .spot-container .spotlight-left .design p {
+    margin-top: 1rem;
+    color: #334155;
+    font-size: 13px;
+    line-height: 2rem;
+}
+#profile-spotlight .wrapper .spot-container .spotlight-left .design ul {
+    display: flex;
+    align-items: center;
+}
+#profile-spotlight .wrapper .spot-container .spotlight-left .design ul li {
+
+}
+#profile-spotlight .wrapper .spot-container .spotlight-left .design ul li a {
+    color: #FEC84B;
+    font-size: 13px;
+}
+#profile-spotlight .wrapper .spot-container  .spotlight-left .design ul li .star {
+    display: block;
+    width: 80%;
+}
+#profile-spotlight .wrapper .spot-container .spotlight-left .design ul li h5 a {
+    color: #334155;
+}
+#profile-spotlight .wrapper .spot-container .spotlight-left .design .user-profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+#profile-spotlight .wrapper .spot-container .spotlight-left .design .user-profile .user {
+    width: 4%;
+    clip-path: circle(50% at 50% 50%);
+}
+#profile-spotlight .wrapper .spot-container .spotlight-left .design .user-profile h6 {
+    font-size: 13px;
+    color: #334155;
+}
+#profile-spotlight .wrapper .spot-container .spotlight-left .design .user-profile a {
+    font-size: 13px;
+    color: #2563EB;
+}
+#profile-spotlight .wrapper .spot-container .spotlight-left .design .language {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+#profile-spotlight .wrapper .spot-container  .spotlight-left .design .language .globe {
+    display: block;
+    width: 2%;
+}
+#profile-spotlight .wrapper .spot-container  .spotlight-left .design .language h6 a {
+    color: #334155;
+}
+
+#profile-spotlight .wrapper .spotlight-right {
+    margin-top: 2rem;
+}
+#profile-spotlight .wrapper .spotlight-right ul {
+    width: 85%;
+    flex-direction: column;
+    display: flex;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: max-content;
+    background-color: #fff;
+    line-height: 4rem;
+}
+#profile-spotlight .wrapper .spotlight-right ul li {
+
+}
+#profile-spotlight .wrapper .spotlight-right ul li .profile-img {
+    display: block;
+}
+#profile-spotlight .wrapper .spotlight-right ul li .cross-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#profile-spotlight .wrapper .spotlight-right ul li .cross-img h3{
+    font-weight: bold;
+}
+#profile-spotlight .wrapper .spotlight-right ul li .cross-img .cross {
+    display: block;
+    width: 20%;
+}
+#profile-spotlight .wrapper .spotlight-right ul li .cross-img h4 {
+    color: #16A34A;
+}
+#profile-spotlight .wrapper .spotlight-right ul li .button {
+    background-color:  #000;
+    color: #fff;
+    border: #334155;
+    padding: 1rem 6rem;
+    border-radius: 9px;
+}
+#profile-spotlight .wrapper .spotlight-right ul li .cart a {
+    color: #fff;
+}
+#profile-spotlight .wrapper .spotlight-right ul li .button-two {
+    background-color: #fff;
+    border: 1px solid;
+    padding: 1rem 6rem;
+    border-radius: 9px;
+}
+#profile-spotlight .wrapper .spotlight-right ul li button a {
+    color: #000;
+}
+#profile-spotlight .wrapper .discription-button hr {
+    width: 111%;
+    height: 1px;
+    background-color: #E2E8F0;
+    border: none;
+    margin-top: 1rem;
+    margin-left: -33rem;
+}
+#profile-spotlight .wrapper .spotlight-right ul li span {
+    display: flex;
+    width: 87%;
+    gap: 1rem;
+}
+#profile-spotlight .wrapper .spotlight-right ul li .socialmedia .facebook {
+    background-color: #fff;
+    border: 1px solid #E2E8F0;
+    border-radius: 53px;
+    padding: 5px;
+}
+#profile-spotlight .wrapper .spotlight-right ul li .socialmedia .github {
+    background-color: #fff;
+    border: 1px solid #E2E8F0;
+    border-radius: 53px;
+    padding: 5px;
+}
+#profile-spotlight .wrapper .spotlight-right ul li .socialmedia .twitter {
+    background-color: #fff;
+    border: 1px solid #E2E8F0;
+    border-radius: 53px;
+    padding: 5px;
+}
+#profile-spotlight .wrapper .spotlight-right ul li .socialmedia .microsoft {
+    background-color: #fff;
+    border: 1px solid #E2E8F0;
+    border-radius: 53px;
+    padding: 5px;
+}
+#profile-spotlight .wrapper .spotlight-right ul li .socialmedia .google {
+    background-color: #fff;
+    border: 1px solid #E2E8F0;
+    border-radius: 53px;
+    padding: 5px;
+}
+#profile-spotlight .wrapper .discription-button {
+    margin-top: -7rem;
+    background-color: #fff;
+    gap: 2rem;
+}
+#profile-spotlight .wrapper .discription-button .button {
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    color: black;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#profile-spotlight .wrapper .discription-button .active {
+    background-color: #E2E8F0;
+}
+#profile-spotlight hr {
+    width: 111%;
+    height: 1px;
+    background-color: #E2E8F0;
+    border: none;
+    margin-top: 1rem;
+    margin-left: -1rem;
+}
+
+/* profile page spotlight section style ends here */
+
+/* profile page description section style starts here */
+
+#description {
+    padding-top: 4rem;
+    line-height: 2rem;
+}
+#description .wrapper {
+
+}
+#description .wrapper .description {
+
+}
+#description .wrapper .description h1 a {
+    font-weight: bold;
+    font-size: 15px;
+
+}
+#description .wrapper .description p {
+    font-size: 13px;
+    color: #334155;
+}
+#description hr {
+    width: 111%;
+    height: 1px;
+    background-color: #E2E8F0;
+    border: none;
+    margin-top: 1rem;
+    margin-left: -36rem;
+}
+/* profile page description section style ends here */
+
+/* profile page profile section style starts here */
+
+#profile {
+    padding-top: 3rem;
+}
+#profile .wrapper {
+
+}
+#profile .wrapper .profile {
+    line-height: 2rem;
+}
+#profile .wrapper .profile h3 a {
+    font-weight: bold;
+}
+#profile .wrapper .profile h1 a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2563EB;
+}
+#profile .wrapper .profile h2 a {
+    color: #334155;
+    font-size: 16px;
+    font-weight: bold;
+}
+#profile .wrapper .profile .user-details {
+    display: flex;
+    align-items: center;
+}
+#profile .wrapper .profile .user-details .user-image {
+    display: block;
+    width: 14%;
+    clip-path: circle(40% at 50% 50%);
+}
+#profile .wrapper .profile .user-details .details .first {
+    display: flex;
+    gap: 1rem;
+}
+#profile .wrapper .profile .user-details .details .two {
+    display: flex;
+    gap: 1rem;
+}
+#profile .wrapper .profile .user-details .details .three {
+    display: flex;
+    gap: 1rem;
+}
+#profile .wrapper .profile p {
+    font-size: 13px;
+    color: #334155;
+}
+#profile hr {
+    width: 111%;
+    height: 1px;
+    background-color: #E2E8F0;
+    border: none;
+    margin-top: 1rem;
+    margin-left: -36rem;
+}
+
+/* profile page profile section style ends here */
+
+/* profile page Syllabus section style starts here */
+
+#syllabus {
+    padding-top: 3rem;
+}
+#syllabus .wrapper {
+
+}
+#syllabus .wrapper .syllabus-container {
+    border: 1px solid #ccc;
+    line-height: 2rem;
+    width: 65%;
+    border-radius: 10px;
+}
+#syllabus .wrapper .title-name {
+    margin-bottom: 2rem;
+}
+#syllabus .wrapper .title-name h1 a {
+    font-size: 22px;
+    font-weight: bold;
+}
+#syllabus .wrapper .syllabus-container .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+#syllabus .wrapper .syllabus-container hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+#syllabus .wrapper .syllabus-container .content .title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    gap: 1rem;
+}
+#syllabus .wrapper .syllabus-container .content .title h1 a {
+    font-weight: bold;
+}
+#syllabus .wrapper .syllabus-container .content .title a i {
+    font-weight: bold;
+}
+#syllabus .wrapper .syllabus-container .content .details {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+#syllabus .wrapper .syllabus-container .content .details .lesson {
+    font-size: 14px;
+    color: #334155;
+}
+#syllabus .wrapper .syllabus-container .content .details h3 {
+    font-size: 14px;
+    color: #334155;
+}
+
+#review {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+#review .wrapper {
+
+}
+#review .wrapper .review-container {
+    display: flex;
+    justify-content: space-between;
+}
+#review .wrapper .review-container h1 a {
+    font-size: 17px;
+    font-weight: bold;
+}
+#review .wrapper .review-container .left {
+    margin-top: 2rem;
+}
+#review .wrapper .review-container .left .star {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+#review .wrapper .review-container .left .star .star-icon {
+    display: block;
+    width: 2%;
+}
+#review .wrapper .review-container .left .star h3 a {
+    font-size: 16px;
+    font-weight: bold;
+}
+#review .wrapper .review-container .left .star h6 a {
+    font-size: 12px;
+    color: #334155;
+}
+#review .wrapper .review-container .left ul {
+    margin-top: 1rem;
+    line-height: 2rem;
+}
+#review .wrapper .review-container .left ul li {
+
+}
+#review .wrapper .review-container .left ul li .image {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+#review .wrapper .review-container .left ul li .image .review {
+    display: block;
+    width: 77%;
+}
+#review .wrapper .review-container .left ul li .image h6 {
+    font-size: 12px;
+}
+#review .wrapper .review-container .right {
+
+}
+#review .wrapper .review-container .right ul {
+
+}
+#review .wrapper .review-container .right ul li {
+    margin-right: 10px;
+    border-radius: 15px;
+    border: 1px solid #E2E8F0;
+    margin-left: 10px;
+    margin-bottom: 1rem;
+}
+#review .wrapper .review-container .right ul li .master {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 1rem;
+}
+#review .wrapper .review-container .right ul li .master .rating-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+#review .wrapper .review-container .right ul li .master .rating-left .profile {
+    display: block;
+    width: 35%;
+}
+#review .wrapper .review-container .right ul li .master .rating-left h2 a {
+    font-size: 16px;
+    font-weight: bold;
+}
+#review .wrapper .review-container .right ul li .master .rating-right {
+
+}
+#review .wrapper .review-container .right ul li .master .rating-right span {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+#review .wrapper .review-container .right ul li .master .rating-right span .img {
+    display: block;
+    width: 4%;
+}
+#review .wrapper .review-container .right ul li .master .rating-right span h3 {
+
+}
+#review .wrapper .review-container .right ul li .master .rating-right span p {
+    color: #334155;
+    font-size: 12px;
+}
+#review .wrapper .review-container .right ul li .master .rating-right p {
+    font-size: 13px;
+    color: #334155;
+}
+#review .wrapper .review-container .right button {
+    padding: 1rem 3rem;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+#review .wrapper .review-container .right button a {
+    font-size: 15px;
+}
+footer {
+    background-color: #141c35;
+    min-height: 50vh;
+    display: flex;
+    padding: 3rem;
+    width: 100%;
+}
+footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+}
+footer .wrapper .footer-container {
+    display: flex;
+    align-items: center;
+}
+footer .wrapper .footer-container .left {
+    margin-right: 12rem;
+    margin-bottom: 2rem;
+} 
+footer .wrapper .footer-container .left .byway {
+    display: flex;
+    align-items: center;
+}
+footer .wrapper .footer-container .left .byway h1 a {
+    color: #fff;
+    font-size: 20px;
+}
+footer .wrapper .footer-container .left p {
+    color: #fff;
+    line-height: 20px;
+    font-size: 13px;
+    margin-top: 1rem;
+}
+footer .wrapper .footer-container .footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    gap: 3rem;
+}
+footer .wrapper .footer-container .footer ul {
+   line-height: 2rem;
+}
+footer .wrapper .footer-container .footer ul li {
+
+}
+footer .wrapper .footer-container .footer ul li h1 a {
+    color: #fff;
+    font-size: 20px;
+}
+footer .wrapper .footer-container .footer ul li a {
+    color: #fff;
+    font-size: 14px;
+}
+footer .wrapper .footer-container .footer ul li span {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    gap: 1rem;
+}   
+footer .wrapper .footer-container .footer ul li span a .facebook {
+    background-color: #fff;
+    border-radius: 53px;
+    padding: 5px;
+}
+footer .wrapper .footer-container .footer ul li span a .github {
+    background-color: #fff;
+    border-radius: 53px;
+    padding: 5px;
+}
+footer .wrapper .footer-container .footer ul li span a .twitter {
+    background-color: #fff;
+    border-radius: 53px;
+    padding: 5px;
+}
+footer .wrapper .footer-container .footer ul li span a .microsoft {
+    background-color: #fff;
+    border-radius: 53px;
+    padding: 5px;
+}
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 1440px) {
+    #create .wrapper .bottom .left .button {
+        padding: 7px 47px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #department .wrapper .bottom ul li a span h6 {
+        color: #334155;
+        font-weight: bold;
+        margin-left: 7px;
+    }
+    #spotlight .wrapper .spotlight-container {
+        gap: 0rem;
+    }
+    #content .wrapper .content-container ul li span {
+        margin-left: 14rem;
+    }
+    #course .wrapper .bottom ul {
+        gap: 1rem;
+    }
+    #department .wrapper .bottom ul {
+        gap: 1rem;
+    }
+    #about .wrapper .bottom #testimonials-container #testimonials  {
+        gap: 1rem;
+    }
+    #about .wrapper .bottom #testimonials-container #testimonials li {
+        line-height: 1rem;
+    }
+    #create .wrapper .top {
+        gap: 3rem;
+    }
+    footer .wrapper .footer-container .left {
+        margin-right: 5rem;
+    }
+    #create .wrapper .bottom .left .button {
+        padding: 10px 37px;
+        width: 66%;
+    }
+    #create .wrapper .top .right .button {
+        padding: 6px 11px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    #profile-spotlight .wrapper .spotlight-right ul li button {
+        padding: 1rem 6rem;
+    }
+    footer .wrapper .footer-container .footer ul li span {
+        display: flex;
+        justify-content: space-between;
+        width: 105%;
+        gap: 1rem;
+    }
+    #profile-spotlight .wrapper .spotlight-right ul li .cart {
+        padding: 1rem 6rem;
+    }
+    #content .wrapper .content-container ul li span {
+        margin-left: 12rem;
+    }
+    #spotlight .wrapper .spotlight-container .left h1 {
+        font-size: 32px;
+    }
+    #create .wrapper .bottom .left .button {
+        padding: 10px 37px;
+        width: 75%;
+    }
+    #content .wrapper .content-container ul li p {
+        font-size: 12px;
+    }
+    #profile-spotlight .wrapper .spotlight-right ul li .button {
+        padding: 1rem 5rem;
+    }
+    #profile-spotlight .wrapper .spotlight-right ul li .button-two {
+        padding: 1rem 5rem;
+    }
+    #review .wrapper .review-container {
+        gap: 4rem;
+    }
+    #review .wrapper .review-container .right ul li .master .rating-left .profile {
+        width: 80%;
+    }
+    #review .wrapper .review-container .left .star {
+        gap: 0rem;
+    }
+    #spotlight .wrapper .left h3 {
+        font-size: 38px;
+        font-weight: bold;
+    }
+    #create .wrapper .top .right .button {
+        padding: 8px 30px;
+        width: 65%;
+    }    
+}
+@media screen and (max-width: 980px) {
+    #profile-spotlight .wrapper .spot-container {
+        flex-direction: column;
+    }
+    footer .wrapper .footer-container .footer ul li h1 a {
+        color: #fff;
+        font-size: 18px;
+    }
+    #profile-spotlight .wrapper .spot-container .spotlight-left {
+        padding-bottom: 2rem;
+    }
+    #profile-spotlight .wrapper .spotlight-right ul li .button {
+        padding: 1rem 6rem;
+    }
+    #profile-spotlight .wrapper .spotlight-right ul li .button-two {
+        padding: 1rem 6rem;
+    }
+    #create .wrapper .bottom .left .button {
+        padding: 10px 37px;
+        width: 99%;
+    }
+    #spotlight .wrapper .spotlight-container .left {
+        padding-top: 3rem;
+    }
+    #spotlight .wrapper .spotlight-container .left h1 {
+        font-size: 27px;
+    }
+    #profile-spotlight .wrapper .spotlight-right {
+        margin-top: 0rem;
+    }
+    #profile-spotlight .wrapper .discription-button {
+        margin-top: 1rem;
+    }
+    #profile-spotlight .wrapper .spotlight-right ul {
+        width: 200%;
+        margin-left: -14rem;
+    }
+    #content .wrapper .content-container ul li h1 {
+        font-size: 21px;
+    }
+    #content .wrapper .content-container ul li span {
+        margin-left: 9rem;
+    }
+    footer .wrapper .footer-container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #content .wrapper .content-container ul li p {
+        font-size: 9px;
+    }
+    #syllabus .wrapper .syllabus-container {
+        width: 81%;
+    }
+    #review .wrapper .review-container {
+        flex-direction: column;
+    }
+    #review .wrapper .review-container .left ul li .image .review {
+        width: 24%;
+    }
+    #review .wrapper .review-container .left .star {
+        gap: 2rem;
+    }
+    #review .wrapper .review-container .left .star .star-icon {
+        display: block;
+        width: 4%;
+    }
+    #review .wrapper .review-container .right ul li .master .rating-right span .img {
+        display: block;
+        width: 5%;
+    }
+    #about .wrapper .bottom #testimonials-container #testimonials li {
+        line-height: 1rem;
+    }
+    #about .wrapper .bottom #testimonials-container #testimonials li p {
+        font-size: 13px;
+    }
+    #course .wrapper .bottom ul {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    #department .wrapper .bottom ul {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    #department .wrapper .bottom ul li {
+        width: 42%;
+    }
+    footer .wrapper {
+        flex-direction: column;
+    }
+    footer .wrapper .footer {
+        width: 90%;
+        margin-top: 2rem;
+        margin-left: 0rem;
+    }
+    footer .wrapper .footer ul li span {
+        margin-top: 2rem;
+    }
+    #spotlight .wrapper .left h3 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    #spotlight .wrapper .right span {
+        padding: 80px 0px 80px 0px;
+        width: 88%;
+    }
+    #spotlight .wrapper .left p {
+        font-size: 13px;
+    }
+    #session .bottom ul li {
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    #spotlight .wrapper .spotlight-container .left h1 a {
+        font-size: 27px;
+    }
+    #session .bottom ul {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    #session .bottom ul li {
+        width: 45%;
+    }
+    #create .wrapper .top .right .button {
+        padding: 8px 20px;
+        width: 89%;
+    }   
+} 
+
+@media screen and (max-width: 768px) {
+    #syllabus .wrapper .syllabus-container {
+        width: 78%;
+    }
+    #spotlight .wrapper .right span {
+        display: none;
+    }
+    #create .wrapper .bottom .left .button {
+        padding: 10px 29px;
+        width: 107%;
+    }
+    #create .wrapper .top .right .button {
+        padding: 8px 20px;
+        width: 102%;
+    }
+    #content .wrapper .content-container ul li h1 {
+        font-size: 18px;
+    }
+    #content .wrapper .content-container ul li span {
+        display: none;
+    }
+    #content .wrapper .content-container ul li p {
+        font-size: 8px;
+    }
+    #spotlight .wrapper .left h3 {
+        font-size: 34px;
+    }
+    #spotlight .wrapper .left {
+        width: 190%;
+    }
+    #spotlight .wrapper .left p {
+        font-size: 16px;
+    }
+    #session .bottom ul li {
+        width: 46%;
+    }
+    #create .wrapper .bottom .left button {
+        background-color: #000;
+        color: #fff;
+        border: 0px solid #000;
+        padding: 9px 51px;
+    }
+    #session .bottom ul {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    /*#create .wrapper .top .right .button {
+        padding: 11px 34px;
+    }*/
+    #create .wrapper .bottom {
+        padding: 2rem;
+    }
+    #create .wrapper .bottom .right {
+        width: 52%;
+    }
+    #spotlight .wrapper .spotlight-container .right .home-image {
+        display: none;
+    }
+    #course .wrapper .bottom ul {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #profile-spotlight .wrapper .spotlight-right ul {
+        width: 95%;
+        margin-left: -5rem;
+    }
+    #syllabus .wrapper .syllabus-container {
+        width: 98%;
+    }
+    #content .wrapper .content-container ul {
+        flex-direction: column;
+    }
+    #profile-spotlight .wrapper .spotlight-right ul li .button {
+        padding: 1rem 5rem;
+    }
+    #profile-spotlight .wrapper .spotlight-right ul li .button-two {
+        padding: 1rem 5rem;
+    }
+    #create .wrapper .bottom .left .button {
+        padding: 10px 29px;
+        width: 64%;
+    }
+    #create .wrapper .bottom .left {
+        line-height: 2rem;
+        width: 98%;
+        margin-left: -1rem;
+    }
+    #create .wrapper .bottom .left button {
+        gap: 1rem;
+    }
+    #syllabus .wrapper .syllabus-container .content .title h1 a {
+        font-size: 15px;
+    }
+    #about .wrapper .bottom #testimonials-container #testimonials {
+        flex-direction: column;
+    }
+    #course .wrapper .bottom ul {
+        flex-direction: column;
+    }
+    footer .wrapper .footer {
+        flex-direction: column;
+    }
+    #profile-spotlight {
+        padding-top: 2rem;
+    }
+    #profile-spotlight .wrapper .spot-container .spotlight-left .categories ul li a {
+        font-size: 13px;
+    }
+    #spotlight .wrapper .left {
+        width: 190%;
+    }
+    #spotlight .wrapper .left h3 {
+        font-size: 29px;
+         font-size: 15px;
+    }
+    #spotlight .wrapper .left p {
+        font-size: 15px;
+    }
+    #create .wrapper .bottom .right {
+        display: none;
+    }
+    #create .wrapper .top .left {
+        display: none;
+    }
+    #create .wrapper .bottom .left h1 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #create .wrapper .bottom {
+        padding: 3rem;
+     line-height: 27px;
+    }
+    #create .wrapper .bottom .left button {
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        padding: 15px 71px;
+    }
+    #create .wrapper .top .right h1 {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    #create .wrapper .top .right .button {
+        padding: 8px 20px;
+        width: 71%;
+    }
+    #create .wrapper .top .right {
+        line-height: 2rem;
+        margin-left: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    #review .wrapper .review-container .right ul li .master {
+        flex-wrap: wrap;
+    }
+    #review .wrapper .review-container .right ul li .master .rating-left {
+        margin-bottom: 0rem;
+    }
+    #review .wrapper .review-container .right ul li .master {
+        gap: 1rem;
+    }
+    #review .wrapper .review-container .right ul li .master .rating-left .profile {
+        width: 45%;
+    }
+    #profile-spotlight .wrapper .spotlight-right ul {
+        width: 76%;
+        margin-left: 0rem;
+    }
+    #department .wrapper .bottom ul li {
+        width: 60%;
+        margin-left: 5rem;
+    }
+    #create .wrapper .bottom .left .button {
+        padding: 10px 29px;
+        width: 73%;
+    }
+    #profile-spotlight .wrapper .spot-container .spotlight-left .design .language .globe {
+        width: 4%;
+    }
+    #profile-spotlight .wrapper .spot-container .spotlight-left .design .user-profile .user {
+        width: 9%;
+    }
+    #profile-spotlight .wrapper .spot-container .spotlight-left .categories ul li a {
+        font-size: 12px;
+    }
+    #syllabus .wrapper .syllabus-container .content .title h1 a {
+        font-size: 13px;
+    }
+    #spotlight .wrapper .left p {
+        font-size: 13px;
+    }
+    #spotlight .wrapper .left h3 {
+        font-size: 26px;
+    }
+    #spotlight .wrapper .right span {
+        width: 90%;
+        padding: 5px 12px 10px 13px;
+    }
+    #spotlight .wrapper .left button {
+        padding: 8px 10px;
+    }
+    #session .bottom ul li {
+        width: 102%;
+    }
+    #create .wrapper .top .right .button {
+        padding: 8px 20px;
+        width: 81%;
+    }
+    #create .wrapper .bottom .left button {
+        padding: 14px 40px;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 480px) {
+    #profile-spotlight .wrapper .spotlight-right ul {
+        width: 91%;
+        margin-left: 1rem;
+    }
+    #create .wrapper .top .right .button {
+        padding: 9px 6px;
+        width: 98%;
+    }
+    #department .wrapper .bottom ul li {
+        width: 78%;
+        margin-left: 2rem;
+    }
+    #create .wrapper .top .right {
+        line-height: 26px;
+    }
+    #create .wrapper .bottom .left h1 {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #create .wrapper .bottom .left .button {
+        padding: 10px 29px;
+        width: 107%;
+    }
+    #create .wrapper .bottom .left {
+        width: 102%;
+        line-height: 22px;
+    }
+    #create .wrapper .bottom .left button {
+        padding: 11px 41px;
+    }
+    #spotlight .wrapper .left p {
+        font-size: 13px;
+    }
+    #spotlight .wrapper .left h3 {
+        font-size: 19px;
+    }
+}
