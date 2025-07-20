@@ -50,8 +50,8 @@ img{
     display: block;
     width: 100%;
 }
-p{
-    color: #000;
+p {
+  line-height: 1.8rem;
 }
 h1,h2{
     color: #000;
@@ -236,10 +236,12 @@ header .wrapper .header-container .left ul li .profile a {
     justify-content: space-between;
     align-items: center;
     padding-top: 4rem;
+    margin-bottom: 1.5rem;
 }
 #session .wrapper .top h2 a {
     color: #000;
     font-size: 25px;
+    font-weight: 700;
 }
 #session .wrapper .top h5 a {
     color:deepskyblue
@@ -260,7 +262,7 @@ header .wrapper .header-container .left ul li .profile a {
     padding: 2rem;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     line-height: 2rem;
 }
 #session .bottom ul li span {
@@ -296,6 +298,7 @@ header .wrapper .header-container .left ul li .profile a {
 #course .wrapper .top h1 a {
     color: #000;
     font-size: 25px;
+    font-weight: 700;
 }
 #course .wrapper .top h5 a {
     color: deepskyblue;
@@ -307,11 +310,12 @@ header .wrapper .header-container .left ul li .profile a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 2rem;
 }
 #course .wrapper .bottom ul li {
     line-height: 2rem;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     height: max-content;
     padding: 1rem;
 }
@@ -366,6 +370,7 @@ header .wrapper .header-container .left ul li .profile a {
 #department .wrapper .top h1 a {
     color: #000;
     font-size: 25px;
+    font-weight: 700;
 }
 #department .wrapper .top h5 a {
     color: deepskyblue
@@ -381,7 +386,8 @@ header .wrapper .header-container .left ul li .profile a {
 #department .wrapper .bottom ul li {
     line-height: 1rem;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
     height: max-content;
     padding: 1rem;
 }
@@ -395,8 +401,8 @@ header .wrapper .header-container .left ul li .profile a {
 #department .wrapper .bottom ul li a h3 {
     font-size: 16px;
     text-align: center;
-    font-weight: 400;
     margin-top: 1rem;
+    font-weight: 600;
 }
 #department .wrapper .bottom ul li a h5 {
     text-align: center;
@@ -457,7 +463,7 @@ header .wrapper .header-container .left ul li .profile a {
   
 .slider-buttons button {
     margin-left: 10px;
-    padding: 5px 15px;
+    padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
     background-color: #94A3B8;
@@ -475,7 +481,8 @@ header .wrapper .header-container .left ul li .profile a {
 }
 #about .wrapper .bottom #testimonials-container #testimonials li {
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
     height: max-content;
     padding: 1rem;
     line-height: 2rem;
@@ -489,6 +496,7 @@ header .wrapper .header-container .left ul li .profile a {
 #about .wrapper .bottom #testimonials-container #testimonials li p {
     font-size: 15px;
     color: #334155;
+    line-height: 1.6rem;
 }
 #about .wrapper .bottom #testimonials-container #testimonials li .subscribe {
     display: flex;
@@ -509,6 +517,7 @@ header .wrapper .header-container .left ul li .profile a {
 }
 #about .wrapper .bottom #testimonials-container #testimonials li .subscribe span h6 {
     color: #334155;
+    margin-top: -0.5rem;
 }
 
 /* about style ends here */
@@ -546,7 +555,7 @@ header .wrapper .header-container .left ul li .profile a {
     padding: 5px 21px;
     width: 55%;
     border-radius: 11px;
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: flex;
     gap: 1rem;
     align-items: center;
@@ -593,8 +602,12 @@ header .wrapper .header-container .left ul li .profile a {
     width: 50%;
 }
 
-
-
+#create .wrapper .top .right p {
+  line-height: 1.5rem;
+}
+#create .wrapper .bottom .left p {
+  line-height: 1.5rem;
+}
 
 
 /* profile page spotlight section style starts here */
@@ -706,7 +719,8 @@ header .wrapper .header-container .left ul li .profile a {
     display: flex;
     padding: 1rem;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
     height: max-content;
     background-color: #fff;
     line-height: 4rem;
@@ -1125,7 +1139,8 @@ footer .wrapper .footer-container .left p {
     color: #fff;
     line-height: 20px;
     font-size: 13px;
-    margin-top: 1rem;
+    text-align: left;
+    margin-top: 0.5rem;
 }
 footer .wrapper .footer-container .footer {
     display: flex;
@@ -1142,10 +1157,13 @@ footer .wrapper .footer-container .footer ul li {
 footer .wrapper .footer-container .footer ul li h1 a {
     color: #fff;
     font-size: 20px;
+    display: block;
+    margin-bottom: 0.5rem;
 }
 footer .wrapper .footer-container .footer ul li a {
-    color: #fff;
     font-size: 14px;
+    font-weight: 400;
+    color: #CBD5E1;
 }
 footer .wrapper .footer-container .footer ul li span {
     display: flex;
